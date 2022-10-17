@@ -6,6 +6,10 @@ public class Professor extends Pessoa{
 	public Integer getSiape() {
 		return siape;
 	}
-	public void setSiape() {
+
+	public void setSiape(Integer siape) {
+		this.siape = siape;
 	}
+
+	
 }
